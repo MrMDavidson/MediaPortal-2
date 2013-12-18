@@ -4,8 +4,12 @@
     PluginId="{87316CE6-904A-48D3-90F0-BBEF3E9D007C}"
     Author="Albert"
     Copyright="GPL"
-    Description="Audio CD Resource Provider"
-    PluginVersion="1.0">
+    Description="Audio CD Resource Provider">
+
+  <Version
+    PluginVersion="1.0"
+    ReleaseDate="2013-11-11 01:00:00 GMT+01:00"
+    CurrentAPI="1"/>
 
   <Runtime>
     <Assembly FileName="AudioCDResourceProvider.dll"/>

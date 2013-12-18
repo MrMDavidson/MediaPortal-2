@@ -5,11 +5,15 @@
     Author="Team MediaPortal"
     Copyright="GPL"
     AutoActivate="true"
-    Description="Service that detects media changes and starts playback"
-    PluginVersion="1.0">
+    Description="Service that detects media changes and starts playback">
+
+  <Version
+    PluginVersion="1.0"
+    ReleaseDate="2013-11-11 01:00:00 GMT+01:00"
+    CurrentAPI="1"/>
 
   <DependsOn>
-    <PluginReference PluginId="{2BA6F93C-B2A9-4795-A99C-BA19126B1359}"/> <!-- BassLibraries -->
+    <PluginReference PluginId="{2BA6F93C-B2A9-4795-A99C-BA19126B1359}" CompatibleAPI="1"/> <!-- BassLibraries -->
   </DependsOn>
 
   <Runtime>
